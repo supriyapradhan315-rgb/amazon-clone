@@ -1,0 +1,168 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+
+    <div class="nav-logo border">
+      <div class="logo"></div>
+    </div>
+
+    <div class="nav-address border">
+      <p class="add-first">Deliver to</p>
+      <div class="add-icon">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="add-second">India</p>
+      </div>
+    </div>
+
+    <div class="nav-search">
+      <select class="search-select">
+        <option>All</option>
+      </select>
+
+      <input class="search-input" placeholder="Search Amazon">
+
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <div class="nav-signin border">
+      <p><span>Hello, sign in</span></p>
+      <p class="nav-second">Account & Lists</p>
+    </div>
+
+    <div class="nav-cart border">
+      <i class="fa-solid fa-cart-shopping"></i>
+      Cart
+    </div>
+
+  </div>
+
+  <!-- PANEL -->
+  <div class="panel">
+    <div class="panel-all">
+      <i class="fa-solid fa-bars"></i> All
+    </div>
+
+    <div class="panel-ops">
+      <p>Today's Deals</p>
+      <p>Customer Service</p>
+      <p>Registry</p>
+      <p>Gift Cards</p>
+      <p>Sell</p>
+    </div>
+
+    <div class="panel-deals">
+      Shop deals in Electronics
+    </div>
+  </div>
+
+</header>
+
+<!-- HERO -->
+<div class="hero-section">
+  <div class="hero-msg">
+    <p>You are on Amazon Clone. Shop millions of products <a href="#">Click here</a></p>
+  </div>
+</div>
+
+<!-- SHOP SECTION (8 BOXES) -->
+<div class="shop-section">
+
+  <div class="box">
+    <h2>Clothes</h2>
+    <div class="box-img" style="background-image:url('box1.jpeg');"></div>
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Home Accessories</h2>
+    <div class="box-img" style="background-image:url('box2.jpeg');"></div>
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Furniture</h2>
+    <div class="box-img" style="background-image:url('box3.jpeg');"></div>
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Electronics</h2>
+    <div class="box-img" style="background-image:url('box4.jpeg');"></div>
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Beauty Picks</h2>
+    <div class="box-img" style="background-image:url('box5.jpeg');"></div>
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Pet Care</h2>
+    <div class="box-img" style="background-image:url('box6.jpeg');"></div>
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Toys</h2>
+    <div class="box-img" style="background-image:url('box7.jpeg');"></div>
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Fashion Trends</h2>
+    <div class="box-img" style="background-image:url('box8.jpeg');"></div>
+    <p>See more</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+
+  <div class="foot-panel1">
+    Back to Top
+  </div>
+
+  <div class="foot-panel2">
+    <ul>
+      <p>Get to Know Us</p>
+      <a>About Us</a>
+      <a>Careers</a>
+      <a>Press</a>
+    </ul>
+
+    <ul>
+      <p>Help</p>
+      <a>Payments</a>
+      <a>Shipping</a>
+      <a>Returns</a>
+    </ul>
+  </div>
+
+  <div class="foot-panel4">
+    <p>© 2026 Amazon Clone</p>
+  </div>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 60px;
+  background: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  background-image: url("amazon_logo.jpeg");
+  background-size: cover;
+  height: 40px;
+  width: 100px;
+}
+
+.border:hover {
+  border: 1px solid white;
+}
+
+/* SEARCH */
+.nav-search {
+  display: flex;
+  width: 600px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 5px;
+}
+
+.search-icon {
+  background: orange;
+  padding: 10px;
+}
+
+/* PANEL */
+.panel {
+  background: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+/* HERO */
+.hero-section {
+  background-image: url("hero-section.jpeg");
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* SHOP */
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: #e2e7e6;
+  padding: 10px;
+}
+
+.box {
+  width: 23%;
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box-img {
+  height: 200px;
+  background-size: cover;
+  margin: 10px 0;
+}
+
+/* FOOTER */
+.foot-panel1 {
+  background: #37475a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.foot-panel2 {
+  background: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.foot-panel4 {
+  background: #0f1111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .box { width: 45%; }
+}
+
+@media (max-width: 600px) {
+  .navbar { flex-direction: column; height: auto; }
+  .nav-search { width: 100%; }
+  .box { width: 100%; }
+}
